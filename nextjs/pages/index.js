@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import QuizRunner from '../components/QuizRunner';
 import ResultsScreen from '../components/ResultsScreen';
@@ -195,6 +196,22 @@ export default function Home() {
             DPP Portal
           </span>
         </div>
+        {!selectedSubject && !currentDpp && (
+          <Link
+            href="/jee-mock"
+            style={{
+              padding: '7px 12px',
+              background: '#0f172a',
+              color: '#fff',
+              borderRadius: '8px',
+              fontSize: '12px',
+              fontWeight: '700',
+              border: '1px solid #0f172a',
+            }}
+          >
+            JEE Mock Test
+          </Link>
+        )}
         {currentDpp && (
           <div style={{ fontSize: '12px', color: 'var(--text-secondary)', fontWeight: '500', maxWidth: '300px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
             {currentDpp.title}
