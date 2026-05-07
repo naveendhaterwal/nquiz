@@ -276,6 +276,12 @@ const maths = [
         expl: "<b>Short Trick:</b> Odd terms evolve separately:<br>$4,16,64$"
       },
       {
+        q: "A group of $n$ people stand in a circle numbered from $1$ to $n$.<br><br>Starting from person 1, every second remaining person is eliminated repeatedly until only one survivor remains.<br><br>Let $J(n)$ denote the position of the survivor.<br><br>Which of the following recurrence relations correctly describes the Josephus problem?",
+        a: ["$J(2n)=J(n)-1$, $J(2n+1)=J(n)+1$", "$J(2n)=2J(n)$, $J(2n+1)=2J(n)+1$", "$J(2n)=2J(n)-1$, $J(2n+1)=2J(n)+1$", "$J(2n)=J(n)$, $J(2n+1)=J(n)+1$"],
+        correct: 2,
+        expl: "<b>Short Trick</b><br>After first elimination round:<br>Survivors occupy odd positions only.<br>Map: $1,3,5,\\dots$ to: $1,2,3,\\dots$<br><br><b>Even Case</b><br>For $2n$:<br>Survivor position doubles and shifts:<br>$J(2n)=2J(n)-1$<br><br><b>Odd Case</b><br>For $2n+1$:<br>One extra shift occurs:<br>$J(2n+1)=2J(n)+1$<br><br><b>Initial Condition</b><br>$J(1)=1$<br><br><b>High-Yield Formula</b><br>If: $n=2^m+k$<br>where: $0\\le k<2^m$<br>then: $J(n)=2k+1$<br><br><b>Example</b><br>$n=13$<br>Largest power of 2: $8$<br>So: $13=8+5$<br>Thus: $J(13)=2(5)+1=11$<br><br><b>Examiner Trap</b><br>Students:<br>- eliminate manually<br>- waste huge time<br>Instead:<br>👉 use largest power of 2 instantly.<br><br><b>Memory Hook</b><br>Josephus $\\Rightarrow$ power-of-2 pattern<br>circle elimination $\\Rightarrow$ recurrence shrinking"
+      },
+      {
         q: "In Josephus problem with elimination of every second person: $J(2n)=?$",
         a: ["$J(n)+1$", "$2J(n)-1$", "$J(n)-1$", "$2J(n)$"],
         correct: 1,
@@ -382,6 +388,12 @@ const maths = [
         a: ["$An$", "$An^2$", "$A3^n$", "$A2^n$"],
         correct: 2,
         expl: "<b>Short Trick:</b> Match forcing function."
+      },
+      {
+        q: "A walkway is to be tiled using tiles of three colors:<br>- Red (R)<br>- Green (G)<br>- Gray (A)<br><br>Tiles of the same color are considered indistinguishable.<br><br>The walkway contains exactly $n$ tiles.<br><br>However, there is one restriction:<br><br>&gt; No two red tiles may be adjacent.<br><br>Let $a_n$ denote the number of valid ways to tile the walkway.<br><br>Which of the following recurrence relations is satisfied by $a_n$?",
+        a: ["$a_n = 2a_{n-1} + a_{n-2}$", "$a_n = 2a_{n-1} + 2a_{n-2}$", "$a_n = 3a_{n-1}$", "$a_n = a_{n-1} + 2a_{n-2}$"],
+        correct: 1,
+        expl: "<b>Short Trick</b><br>Break by last tile.<br><br><b>Case 1: Last tile is NOT red</b><br>Choices:<br>- Green<br>- Gray<br>So: $2a_{n-1}$<br><br><b>Case 2: Last tile is red</b><br>Previous tile cannot be red.<br>So second-last tile:<br>- Green or Gray<br>Pattern: $(\\text{non-red}) + R$<br>Contribution: $2a_{n-2}$<br><br><b>Total</b><br>$a_n = 2a_{n-1} + 2a_{n-2}$<br><br><b>Initial Conditions</b><br>$a_0 = 1$ (empty walkway)<br>$a_1 = 3$ (R,G,A)<br><br><b>Examiner Trap</b><br>Students forget:<br>- red restriction only affects neighboring tile<br>- green/gray remain unrestricted<br><br><b>Memory Hook</b><br>Walkway tiling $\\Rightarrow$ split by last tile<br>adjacency restriction $\\Rightarrow$ Fibonacci-type recurrence"
       },
       {
         q: "In walkway tiling problem: \"No two red tiles adjacent\" This recurrence is closest to:",
