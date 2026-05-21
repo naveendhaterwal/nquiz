@@ -1034,7 +1034,7 @@ const dpp7 = {
         'Union'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Parameter supports What-if analysis as it allows users to input arbitrary values into calculations. Maps are for spatial data, Hierarchies for drill-downs, and Unions for appending rows vertically.',
       weightage: 2,
     },
     {
@@ -1046,7 +1046,7 @@ const dpp7 = {
         'Parameter'
       ],
       correct: 2,
-      expl: '',
+      expl: 'Union appends data vertically (row-wise), making it perfect for identical schemas like yearly logs. Inner Joins merge horizontally, while Relationships handle different granularities.',
       weightage: 2,
     },
     {
@@ -1058,7 +1058,7 @@ const dpp7 = {
         'Parameter'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Union appends data vertically (row-wise), making it perfect for identical schemas like yearly logs. Inner Joins merge horizontally, while Relationships handle different granularities.',
       weightage: 2,
     },
     {
@@ -1070,7 +1070,7 @@ const dpp7 = {
         'Both A and R are true, and R explains A'
       ],
       correct: 3,
-      expl: '',
+      expl: 'Both A and R are true, and R explains A. The F-pattern dictates users scan top-to-bottom, making the top area prime real estate for crucial KPIs.',
       weightage: 2,
     },
     {
@@ -1082,7 +1082,7 @@ const dpp7 = {
         'Parameter'
       ],
       correct: 2,
-      expl: '',
+      expl: 'Sets categorize data into two groups: IN the set or OUT of the set. Hierarchies define drill paths, and Parameters are user inputs.',
       weightage: 2,
     },
     {
@@ -1094,7 +1094,7 @@ const dpp7 = {
         'Set'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Parameters allow user-driven input (like sliders or dropdowns) that can be passed into calculations or filters dynamically.',
       weightage: 2,
     },
     {
@@ -1106,7 +1106,7 @@ const dpp7 = {
         'Blend'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Union requires identical column names and types because it stacks tables vertically. Joins and Relationships combine tables horizontally using keys.',
       weightage: 2,
     },
     {
@@ -1118,7 +1118,7 @@ const dpp7 = {
         'Join'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Parameters allow user-driven input (like sliders or dropdowns) that can be passed into calculations or filters dynamically.',
       weightage: 2,
     },
     {
@@ -1130,7 +1130,7 @@ const dpp7 = {
         'Loss Making Products'
       ],
       correct: 3,
-      expl: '',
+      expl: 'Loss Making Products typically uses Product Name on rows to list underperforming items vertically. \'Sales by Segment\' uses Segment.',
       weightage: 2,
     },
     {
@@ -1142,7 +1142,7 @@ const dpp7 = {
         'Prep Builder'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Tableau Pulse provides AI-driven insights and automated metrics. Story points are for presentations, Hyper is the data engine.',
       weightage: 2,
     },
     {
@@ -1154,7 +1154,7 @@ const dpp7 = {
         'Only 2 and 3'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Parameters are global and can drive calculations (1 and 3). However, statement 2 is false—parameters do nothing on their own until tied to a filter or calculation.',
       weightage: 2,
     },
     {
@@ -1166,7 +1166,7 @@ const dpp7 = {
         'Relationship'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Union stacks rows vertically. Joins, Blends, and Relationships merge data horizontally by adding columns based on related keys.',
       weightage: 2,
     },
     {
@@ -1178,7 +1178,7 @@ const dpp7 = {
         'Static Set'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Dynamic Sets evaluate conditions continuously, meaning their members update automatically as underlying data changes. Manual/Static sets remain fixed.',
       weightage: 2,
     },
     {
@@ -1190,7 +1190,7 @@ const dpp7 = {
         'Bar'
       ],
       correct: 3,
-      expl: '',
+      expl: 'A Bar chart is the best practice for comparing categorical data like Sales by Segment.',
       weightage: 2,
     },
     {
@@ -1202,7 +1202,7 @@ const dpp7 = {
         'Worksheet'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Sets categorize data into two groups: IN the set or OUT of the set. Hierarchies define drill paths, and Parameters are user inputs.',
       weightage: 2,
     },
     {
@@ -1214,7 +1214,7 @@ const dpp7 = {
         'Join'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Relationships (the \'noodle\') exist in the Logical Layer and keep tables logically separate. Joins physically merge tables into a flat structure.',
       weightage: 2,
     },
     {
@@ -1226,7 +1226,7 @@ const dpp7 = {
         'Exporting'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Build Sheets. After designing the layout (Wireframing), you build the individual worksheets before assembling the Dashboard.',
       weightage: 2,
     },
     {
@@ -1238,7 +1238,7 @@ const dpp7 = {
         'Only 1 and 3'
       ],
       correct: 3,
-      expl: '',
+      expl: 'Parameters are global and can drive calculations (1 and 3). However, statement 2 is false—parameters do nothing on their own until tied to a filter or calculation.',
       weightage: 2,
     },
     {
@@ -1250,7 +1250,7 @@ const dpp7 = {
         'Relationship'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Union stacks rows vertically. Joins, Blends, and Relationships merge data horizontally by adding columns based on related keys.',
       weightage: 2,
     },
     {
@@ -1262,7 +1262,7 @@ const dpp7 = {
         'Top Strip Rule'
       ],
       correct: 3,
-      expl: '',
+      expl: 'The Top Strip Rule suggests placing the dashboard title and global filters in a horizontal strip at the very top for clear context.',
       weightage: 2,
     },
     {
@@ -1274,7 +1274,7 @@ const dpp7 = {
         'Union'
       ],
       correct: 3,
-      expl: '',
+      expl: 'Union stacks rows vertically. Joins, Blends, and Relationships merge data horizontally by adding columns based on related keys.',
       weightage: 2,
     },
     {
@@ -1286,7 +1286,7 @@ const dpp7 = {
         'Parameter'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Sets categorize data into two groups: IN the set or OUT of the set. Hierarchies define drill paths, and Parameters are user inputs.',
       weightage: 2,
     },
     {
@@ -1298,7 +1298,7 @@ const dpp7 = {
         'Left Join'
       ],
       correct: 1,
-      expl: '',
+      expl: 'An Inner Join returns only rows that have matching keys in both tables. Left/Right joins keep unmatched rows from one side.',
       weightage: 2,
     },
     {
@@ -1310,7 +1310,7 @@ const dpp7 = {
         'F-Pattern Rule'
       ],
       correct: 3,
-      expl: '',
+      expl: 'The F-Pattern Rule states that users scan screens in an F-shape (top-left to top-right, then down). Dashboards should match this eye movement.',
       weightage: 2,
     },
     {
@@ -1322,7 +1322,7 @@ const dpp7 = {
         'All are correct'
       ],
       correct: 2,
-      expl: '',
+      expl: 'Relationships query data dynamically and handle different granularities without duplicating rows (1 and 3). Physical merging is done by Joins (2 is false).',
       weightage: 2,
     },
     {
@@ -1334,7 +1334,7 @@ const dpp7 = {
         'Inner Join'
       ],
       correct: 2,
-      expl: '',
+      expl: 'Union appends data vertically (row-wise), making it perfect for identical schemas like yearly logs. Inner Joins merge horizontally, while Relationships handle different granularities.',
       weightage: 2,
     },
     {
@@ -1346,7 +1346,7 @@ const dpp7 = {
         'Both A and R are true, and R explains A'
       ],
       correct: 3,
-      expl: '',
+      expl: 'Because Relationships keep tables logically separate and only query them at their native level of detail, they inherently prevent the data duplication issues common in Joins.',
       weightage: 2,
     },
     {
@@ -1358,7 +1358,7 @@ const dpp7 = {
         'Join'
       ],
       correct: 2,
-      expl: '',
+      expl: 'Union stacks rows vertically. Joins, Blends, and Relationships merge data horizontally by adding columns based on related keys.',
       weightage: 2,
     },
     {
@@ -1370,7 +1370,7 @@ const dpp7 = {
         'Parameter'
       ],
       correct: 3,
-      expl: '',
+      expl: 'Parameters behave exactly like variables in programming. They hold a value that can be changed by the user and referenced across calculations.',
       weightage: 2,
     },
     {
@@ -1382,7 +1382,7 @@ const dpp7 = {
         'Dashboard publishing'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Join creation happens in the Physical Layer, physically merging tables. Relationships operate above this in the Logical Layer.',
       weightage: 2,
     },
     {
@@ -1394,7 +1394,7 @@ const dpp7 = {
         'Only 1 and 2'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Relationships query data dynamically and handle different granularities without duplicating rows (1 and 3). Physical merging is done by Joins (2 is false).',
       weightage: 2,
     },
     {
@@ -1406,7 +1406,7 @@ const dpp7 = {
         'A is false, but R is true'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Both A and R are true, and R explains A. The F-pattern dictates users scan top-to-bottom, making the top area prime real estate for crucial KPIs.',
       weightage: 2,
     },
     {
@@ -1418,7 +1418,7 @@ const dpp7 = {
         'Only 1 and 2'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Relationships query data dynamically and handle different granularities without duplicating rows (1 and 3). Physical merging is done by Joins (2 is false).',
       weightage: 2,
     },
     {
@@ -1430,7 +1430,7 @@ const dpp7 = {
         'F-Pattern Rule'
       ],
       correct: 2,
-      expl: '',
+      expl: 'The One Question Rule ensures dashboards remain focused and actionable, advising that every visual should answer a specific business question.',
       weightage: 2,
     },
     {
@@ -1442,7 +1442,7 @@ const dpp7 = {
         'Only 1 and 2'
       ],
       correct: 2,
-      expl: '',
+      expl: 'Relationships query data dynamically and handle different granularities without duplicating rows (1 and 3). Physical merging is done by Joins (2 is false).',
       weightage: 2,
     },
     {
@@ -1454,7 +1454,7 @@ const dpp7 = {
         'A is true, but R is false'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Because Relationships keep tables logically separate and only query them at their native level of detail, they inherently prevent the data duplication issues common in Joins.',
       weightage: 2,
     },
     {
@@ -1466,7 +1466,7 @@ const dpp7 = {
         'Set'
       ],
       correct: 3,
-      expl: '',
+      expl: 'Sets categorize data into two groups: IN the set or OUT of the set. Hierarchies define drill paths, and Parameters are user inputs.',
       weightage: 2,
     },
     {
@@ -1478,7 +1478,7 @@ const dpp7 = {
         'Wireframe Rule'
       ],
       correct: 2,
-      expl: '',
+      expl: 'The KPI Row Rule recommends keeping the number of KPIs to a manageable number (usually 3-5) to avoid overwhelming the user.',
       weightage: 2,
     },
     {
@@ -1490,7 +1490,7 @@ const dpp7 = {
         'Quantity'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Sales is a common magnitude measure used to control the Size of marks on a map, whereas Profit is typically used for Color.',
       weightage: 2,
     },
     {
@@ -1502,7 +1502,7 @@ const dpp7 = {
         'Set'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Parameters allow user-driven input (like sliders or dropdowns) that can be passed into calculations or filters dynamically.',
       weightage: 2,
     },
     {
@@ -1514,7 +1514,7 @@ const dpp7 = {
         'A is false, but R is true'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Because Relationships keep tables logically separate and only query them at their native level of detail, they inherently prevent the data duplication issues common in Joins.',
       weightage: 2,
     },
     {
@@ -1526,7 +1526,7 @@ const dpp7 = {
         'Stories'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Data roles (assigning Geographic Roles) allow Tableau to automatically generate coordinates (Latitude/Longitude) for mapping.',
       weightage: 2,
     },
     {
@@ -1538,7 +1538,7 @@ const dpp7 = {
         'All are correct'
       ],
       correct: 2,
-      expl: '',
+      expl: 'Parameters are global and can drive calculations (1 and 3). However, statement 2 is false—parameters do nothing on their own until tied to a filter or calculation.',
       weightage: 2,
     },
     {
@@ -1550,7 +1550,7 @@ const dpp7 = {
         'Both A and R are true, but R does not explain A'
       ],
       correct: 0,
-      expl: '',
+      expl: 'Because Relationships keep tables logically separate and only query them at their native level of detail, they inherently prevent the data duplication issues common in Joins.',
       weightage: 2,
     },
     {
@@ -1562,7 +1562,7 @@ const dpp7 = {
         'Profit'
       ],
       correct: 3,
-      expl: '',
+      expl: 'Profit is best represented via color/shading to show positive vs. negative performance, while Region defines the map boundaries.',
       weightage: 2,
     },
     {
@@ -1574,7 +1574,7 @@ const dpp7 = {
         'Only 2 and 3'
       ],
       correct: 2,
-      expl: '',
+      expl: 'Parameters are global and can drive calculations (1 and 3). However, statement 2 is false—parameters do nothing on their own until tied to a filter or calculation.',
       weightage: 2,
     },
     {
@@ -1586,7 +1586,7 @@ const dpp7 = {
         'Union'
       ],
       correct: 3,
-      expl: '',
+      expl: 'Union appends data vertically (row-wise), making it perfect for identical schemas like yearly logs. Inner Joins merge horizontally, while Relationships handle different granularities.',
       weightage: 2,
     },
     {
@@ -1598,7 +1598,7 @@ const dpp7 = {
         'Label'
       ],
       correct: 0,
-      expl: '',
+      expl: 'The Color shelf on the Marks card applies color encodings to marks based on dimensions or measures.',
       weightage: 2,
     },
     {
@@ -1610,7 +1610,7 @@ const dpp7 = {
         'A is false, but R is true'
       ],
       correct: 2,
-      expl: '',
+      expl: 'Both A and R are true, and R explains A. The F-pattern dictates users scan top-to-bottom, making the top area prime real estate for crucial KPIs.',
       weightage: 2,
     },
     {
@@ -1622,11 +1622,10 @@ const dpp7 = {
         'Relationship'
       ],
       correct: 1,
-      expl: '',
+      expl: 'Joins combine tables horizontally by matching a common key field. Unions stack tables vertically.',
       weightage: 2,
     },
   ],
 };
 
 export const dvaData = [dpp1, dpp2, dpp3, dpp4, dpp5, dpp6, dpp7];
-
