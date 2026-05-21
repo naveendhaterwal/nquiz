@@ -1019,4 +1019,614 @@ const dpp6 = {
   ],
 };
 
-export const dvaData = [dpp1, dpp2, dpp3, dpp4, dpp5, dpp6];
+const dpp7 = {
+  id: 'dva-7',
+  numId: 7,
+  title: 'Tableau Final Exam Pattern',
+  topic: 'Tableau',
+  questions: [
+    {
+      q: 'Which feature supports What-if analysis?',
+      a: [
+        'Parameter',
+        'Map',
+        'Hierarchy',
+        'Union'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'A Tableau developer wants to combine yearly datasets having identical columns but different rows. Which operation should be used?',
+      a: [
+        'Inner Join',
+        'Relationship',
+        'Union',
+        'Parameter'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'A Tableau developer wants to combine yearly datasets having identical columns but different rows. Which operation should be used?',
+      a: [
+        'Relationship',
+        'Union',
+        'Inner Join',
+        'Parameter'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Assertion (A): KPI cards are usually placed near the top.<br>Reason (R): Users naturally scan dashboards top to bottom.<br>Choose the correct option.',
+      a: [
+        'A is true, but R is false',
+        'Both A and R are true, but R does not explain A',
+        'A is false, but R is true',
+        'Both A and R are true, and R explains A'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which Tableau feature categorizes records as IN or OUT?',
+      a: [
+        'Hierarchy',
+        'Worksheet',
+        'Set',
+        'Parameter'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'A dashboard designer wants users to interact using sliders and dropdowns. Which Tableau feature is most suitable?',
+      a: [
+        'Join',
+        'Parameter',
+        'Union',
+        'Set'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which operation requires identical columns?',
+      a: [
+        'Union',
+        'Relationship',
+        'Join',
+        'Blend'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'A dashboard designer wants users to interact using sliders and dropdowns. Which Tableau feature is most suitable?',
+      a: [
+        'Union',
+        'Parameter',
+        'Set',
+        'Join'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which worksheet used Product Name on Rows?',
+      a: [
+        'Sales by Segment',
+        'Dashboard',
+        'Profit by Region',
+        'Loss Making Products'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which feature was linked with AI-driven insights?',
+      a: [
+        'Story Points',
+        'Tableau Pulse',
+        'Hyper',
+        'Prep Builder'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Consider the following statements about Tableau Parameters:<br>1. Parameters are independent of data.<br>2. Parameters automatically filter charts after creation.<br>3. Parameters can be connected to calculations.<br>Which option is correct?',
+      a: [
+        'Only 1 and 3',
+        'Only 1 and 2',
+        'All are correct',
+        'Only 2 and 3'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which operation primarily stacks rows vertically?',
+      a: [
+        'Blend',
+        'Union',
+        'Join',
+        'Relationship'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which Set type updates automatically with data changes?',
+      a: [
+        'Dynamic Set',
+        'Named Set',
+        'Manual Set',
+        'Static Set'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which chart type was used for Sales by Segment?',
+      a: [
+        'Pie',
+        'Scatter',
+        'Map',
+        'Bar'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which Tableau feature categorizes records as IN or OUT?',
+      a: [
+        'Set',
+        'Hierarchy',
+        'Parameter',
+        'Worksheet'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which feature keeps tables logically separate?',
+      a: [
+        'Relationship',
+        'Blend',
+        'Union',
+        'Join'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which phase comes after Wireframing?',
+      a: [
+        'Build Sheets',
+        'Publishing',
+        'Blending',
+        'Exporting'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Consider the following statements about Tableau Parameters:<br>1. Parameters are independent of data.<br>2. Parameters automatically filter charts after creation.<br>3. Parameters can be connected to calculations.<br>Which option is correct?',
+      a: [
+        'Only 1 and 2',
+        'All are correct',
+        'Only 2 and 3',
+        'Only 1 and 3'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which operation primarily stacks rows vertically?',
+      a: [
+        'Union',
+        'Blend',
+        'Join',
+        'Relationship'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which dashboard rule focuses on top-level filters and title?',
+      a: [
+        'One Question Rule',
+        'F-Pattern Rule',
+        'KPI Row Rule',
+        'Top Strip Rule'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which operation primarily stacks rows vertically?',
+      a: [
+        'Join',
+        'Blend',
+        'Relationship',
+        'Union'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which Tableau feature categorizes records as IN or OUT?',
+      a: [
+        'Set',
+        'Hierarchy',
+        'Worksheet',
+        'Parameter'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which join returns only matching rows?',
+      a: [
+        'Right Join',
+        'Inner Join',
+        'Full Outer Join',
+        'Left Join'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which dashboard principle relates to user eye movement?',
+      a: [
+        'Top Strip Rule',
+        'KPI Rule',
+        'One Question Rule',
+        'F-Pattern Rule'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Consider the following statements regarding Relationships:<br>1. Tableau creates joins dynamically.<br>2. Relationships physically merge tables immediately.<br>3. Relationships support different granularities.<br>Which option is correct?',
+      a: [
+        'Only 1 and 2',
+        'Only 2 and 3',
+        'Only 1 and 3',
+        'All are correct'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'A Tableau developer wants to combine yearly datasets having identical columns but different rows. Which operation should be used?',
+      a: [
+        'Relationship',
+        'Parameter',
+        'Union',
+        'Inner Join'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Assertion (A): Relationships help avoid duplicate aggregations.<br>Reason (R): Relationships keep tables logically separate.<br>Choose the correct option.',
+      a: [
+        'A is false, but R is true',
+        'Both A and R are true, but R does not explain A',
+        'A is true, but R is false',
+        'Both A and R are true, and R explains A'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which operation primarily stacks rows vertically?',
+      a: [
+        'Relationship',
+        'Blend',
+        'Union',
+        'Join'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which feature behaves most like a variable?',
+      a: [
+        'Relationship',
+        'Worksheet',
+        'Set',
+        'Parameter'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which Tableau operation occurs in the Physical Layer?',
+      a: [
+        'KPI styling',
+        'Join creation',
+        'Set filtering',
+        'Dashboard publishing'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Consider the following statements regarding Relationships:<br>1. Tableau creates joins dynamically.<br>2. Relationships physically merge tables immediately.<br>3. Relationships support different granularities.<br>Which option is correct?',
+      a: [
+        'Only 1 and 3',
+        'All are correct',
+        'Only 2 and 3',
+        'Only 1 and 2'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Assertion (A): KPI cards are usually placed near the top.<br>Reason (R): Users naturally scan dashboards top to bottom.<br>Choose the correct option.',
+      a: [
+        'Both A and R are true, and R explains A',
+        'Both A and R are true, but R does not explain A',
+        'A is true, but R is false',
+        'A is false, but R is true'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Consider the following statements regarding Relationships:<br>1. Tableau creates joins dynamically.<br>2. Relationships physically merge tables immediately.<br>3. Relationships support different granularities.<br>Which option is correct?',
+      a: [
+        'Only 1 and 3',
+        'Only 2 and 3',
+        'All are correct',
+        'Only 1 and 2'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which principle says every chart must answer a business question?',
+      a: [
+        'Top Strip Rule',
+        'KPI Rule',
+        'One Question Rule',
+        'F-Pattern Rule'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Consider the following statements regarding Relationships:<br>1. Tableau creates joins dynamically.<br>2. Relationships physically merge tables immediately.<br>3. Relationships support different granularities.<br>Which option is correct?',
+      a: [
+        'Only 2 and 3',
+        'All are correct',
+        'Only 1 and 3',
+        'Only 1 and 2'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Assertion (A): Relationships help avoid duplicate aggregations.<br>Reason (R): Relationships keep tables logically separate.<br>Choose the correct option.',
+      a: [
+        'A is false, but R is true',
+        'Both A and R are true, and R explains A',
+        'Both A and R are true, but R does not explain A',
+        'A is true, but R is false'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which Tableau feature categorizes records as IN or OUT?',
+      a: [
+        'Parameter',
+        'Worksheet',
+        'Hierarchy',
+        'Set'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which rule recommends limiting KPI count?',
+      a: [
+        'F-Pattern Rule',
+        'Top Strip Rule',
+        'KPI Row Rule',
+        'Wireframe Rule'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which field controlled Size in the map demo?',
+      a: [
+        'Sales',
+        'Discount',
+        'Profit',
+        'Quantity'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'A dashboard designer wants users to interact using sliders and dropdowns. Which Tableau feature is most suitable?',
+      a: [
+        'Join',
+        'Parameter',
+        'Union',
+        'Set'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Assertion (A): Relationships help avoid duplicate aggregations.<br>Reason (R): Relationships keep tables logically separate.<br>Choose the correct option.',
+      a: [
+        'Both A and R are true, but R does not explain A',
+        'Both A and R are true, and R explains A',
+        'A is true, but R is false',
+        'A is false, but R is true'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which Tableau capability auto-generates maps?',
+      a: [
+        'Groups',
+        'Data roles',
+        'Sets',
+        'Stories'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Consider the following statements about Tableau Parameters:<br>1. Parameters are independent of data.<br>2. Parameters automatically filter charts after creation.<br>3. Parameters can be connected to calculations.<br>Which option is correct?',
+      a: [
+        'Only 1 and 2',
+        'Only 2 and 3',
+        'Only 1 and 3',
+        'All are correct'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Assertion (A): Relationships help avoid duplicate aggregations.<br>Reason (R): Relationships keep tables logically separate.<br>Choose the correct option.',
+      a: [
+        'Both A and R are true, and R explains A',
+        'A is false, but R is true',
+        'A is true, but R is false',
+        'Both A and R are true, but R does not explain A'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which field controlled shading in Profit by Region?',
+      a: [
+        'Category',
+        'Quantity',
+        'Sales',
+        'Profit'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Consider the following statements about Tableau Parameters:<br>1. Parameters are independent of data.<br>2. Parameters automatically filter charts after creation.<br>3. Parameters can be connected to calculations.<br>Which option is correct?',
+      a: [
+        'All are correct',
+        'Only 1 and 2',
+        'Only 1 and 3',
+        'Only 2 and 3'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'A Tableau developer wants to combine yearly datasets having identical columns but different rows. Which operation should be used?',
+      a: [
+        'Relationship',
+        'Inner Join',
+        'Parameter',
+        'Union'
+      ],
+      correct: 3,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which shelf controls color encoding?',
+      a: [
+        'Color',
+        'Filters',
+        'Pages',
+        'Label'
+      ],
+      correct: 0,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Assertion (A): KPI cards are usually placed near the top.<br>Reason (R): Users naturally scan dashboards top to bottom.<br>Choose the correct option.',
+      a: [
+        'Both A and R are true, but R does not explain A',
+        'A is true, but R is false',
+        'Both A and R are true, and R explains A',
+        'A is false, but R is true'
+      ],
+      correct: 2,
+      expl: '',
+      weightage: 2,
+    },
+    {
+      q: 'Which operation combines tables using matching keys?',
+      a: [
+        'Union',
+        'Join',
+        'Append',
+        'Relationship'
+      ],
+      correct: 1,
+      expl: '',
+      weightage: 2,
+    },
+  ],
+};
+
+export const dvaData = [dpp1, dpp2, dpp3, dpp4, dpp5, dpp6, dpp7];
+
